@@ -10,7 +10,7 @@ var Grub = function() {
   this.food = 'jelly';
 };
 
-Grub.prototype.eat = () => {
+Grub.prototype.eat = function() {
   // do something in here
   console.log('I\'m eating here, so buzz off!');
 };
